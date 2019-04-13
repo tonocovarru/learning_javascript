@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number_one = 13;
+        var result_multiplo_13 = number_one % 13;
+        
+        if( result_multiplo_13 === 0 ) {
+            console.log("El número: " + number_one + " si es multiplo de 13");
+        }
+        else {
+            console.error("El número: " +  number_one + " no es multiplo de 13");
+        }
+
+        var number_one = 3;
+        var number_two = 9;
+        var product = number_one * number_two; 
+        
+        if( (product % 2) === 0  && product < 30 ) {
+           console.log("Si es par y menor de 30");     
+        } else if( (product % 2) === 0  && product >= 30 && product < 50 ) {
+            console.log("Si es par , mayor a 30 y menor de 50");
+        }
+        else {
+            console.error("Ninguno");
+        }
+
+
+    </script>
+</body>
+</html>
