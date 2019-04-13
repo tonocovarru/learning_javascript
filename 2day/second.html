@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        var number_one = 13;
+    /*    var number_one = 13;
         var result_multiplo_13 = number_one % 13;
         
         if( result_multiplo_13 === 0 ) {
@@ -30,7 +30,41 @@
         else {
             console.error("Ninguno");
         }
+    */
+    //While    
+     /*var number = 0;
+     while ( number < 100 ){
+        if(number % 3 === 0 ){ 
+            console.log("El número <" + number + "> es multiplo de 3");
+        }    
+        number++;
+     }   */
+     //for
+/*
+     for(var number=0;number<100;number++){
+        if(number % 3 === 0 ){ 
+            console.log("El número <" + number + "> es multiplo de 3");
+        }    
+     }
+*/
+     /*for(var number = 100;number > 0; number--){
+         console.log(number);
+     }*/
+     //hoooolaa,array,amarilla,palindromo
+     var palabra = "AmArialla";
+     var num_as = 0;
+/*     
+     for(var i=0;i<palabra.length;i++){
+        if(palabra[i].toLocaleLowerCase()==='a') num_as++;
+     }
+*/
+     var i =0;
+    while(palabra[i]!=undefined){
+        if(palabra[i] === 'a' || palabra[i]==='A') num_as++;
+        i++; 
+    }
 
+     console.log("El número de a's es " + num_as + " de la palabra " + palabra);
 
     </script>
 </body>
