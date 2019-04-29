@@ -80,3 +80,12 @@ function capitlize(word){
 
 
 console.log(capitlize("hola a todos"));
+
+
+var numbers_array = [1,2,3,4,5,6,7,8,9,0];
+var even_array = numbers_array.filter(function(element){
+    return element % 2 === 0;
+});
+
+console.log(numbers_array);
+console.log(even_array);
